@@ -54,8 +54,8 @@ const Navbar = () => {
         <img src={logo} alt="Netflix Logo" style={logoStyle} />
       </div>
       <ul style={ulStyle}>
-        <li style={liStyle}>Home</li>
-        <li style={liStyle}>TV Shows</li>
+        <li style={liStyle} onClick={() => navigate("/")}>Home</li>
+        <li style={liStyle} onClick={() => navigate("/tv-shows")}>TV Shows</li>
         <li style={liStyle}>Movies</li>
         <li style={liStyle}>Recently Added</li>
         <li style={liStyle}>My List</li>
